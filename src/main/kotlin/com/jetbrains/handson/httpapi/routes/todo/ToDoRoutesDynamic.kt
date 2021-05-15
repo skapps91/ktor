@@ -121,7 +121,7 @@ fun Route.createToDo( toDoRepo: ToDoRepository ){
                 call.respond(HttpStatusCode.OK, "ToDo Removed with ID $toDoID")
 
             } else {
-                call.respond(HttpStatusCode.NotFound, "$toDoID id is already deleted")
+                call.respond(HttpStatusCode.NotFound, "$toDoID id is already deleted.")
 
             }
 
