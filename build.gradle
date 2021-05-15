@@ -62,3 +62,6 @@ application {
 
 }
 
+task stage {
+    dependsOn installDist
+}
